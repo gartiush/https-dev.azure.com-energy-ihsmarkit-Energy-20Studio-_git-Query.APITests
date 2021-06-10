@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="eb371271-62fd-4a25-bbfa-07cb10ad0d0d" created="3.7.0" activeEnvironment="ES-DEVELOPMENT" name="ES QUERY Regression" updated="3.7.0" encryptionMode="Selected properties" resourceRoot="" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="eb371271-62fd-4a25-bbfa-07cb10ad0d0dfileName">ES-QUERY-Regression</con:setting>
+  </con:settings>
+  <con:properties>
+    <con:property encrypted="false">
+      <con:name>SessionKey</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Auth Token</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Well Workbook ID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Production Workbook ID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Well Production Detailed Report ID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>IHS_SSO_SESS</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>297 ID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>298 ID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Lease Detail Report ID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>SessionKey_NoAccess</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>SessionKey_AccessNoData</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Well Workbook ID_AccessNoData</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Production Workbook ID_AccessNoData</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>SessionKey_well</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Well Workbook ID-Canada_well</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Lease Detail ID_well</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>SessionKey_proddata</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Well Workbook Tabs Testing ID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Well Workbook Prodfit</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Well Borestick</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Session Key RM</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Canada Workbook RM</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Lease Detail RM</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Well Workbook Canada proddata</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Production Scout Ticket Report</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Well Workbook 7K ID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>SessionKey NoTops</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>ProjectId</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>ExportId</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>mapSourceId</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>TrialUser Session Key</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>AlertID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>SessionKeyTopsKSOKTX</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>WellWorkbookIDTopsKSOKTX</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>SharedQueryWorkspaceID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>AutoExportID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>WellShapefileWGS84</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>ProjectName</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>LeaseHolderFrequencyID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Trial1a_Production_User</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>MineralHolderFrequencyID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>LeaseAssignmentFrequencyID</con:name>
+    </con:property>
+    <con:property encrypted="true">
+      <con:name>UserName</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Library1SessionKey</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>LeaseBrowseListExportId</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>QueryTransferID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>ES Workbook Export path</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>Password</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>SharedUserProjectID</con:name>
+    </con:property>
+    <con:property encrypted="false">
+      <con:name>ScoutTicketReportID</con:name>
+    </con:property>
+  </con:properties>
+  <con:wssContainer/>
+  <con:databaseConnectionContainer/>
+  <con:jmsConnectionContainer/>
+  <con:oAuth2ProfileContainer/>
+  <con:oAuth1ProfileContainer/>
+  <con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest">
+    <con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
+// This code is often used for adding custom authentication to ReadyAPI functional tests
+
+// If hardcoding the token, uncomment and change line 5
+// token = '4567'
+
+// If your token is parameterized in Project level custom property, uncomment line 8
+// token = request.parent.testCase.testSuite.project.getProperty('auth_token').getValue()
+
+// To modify all outgoing calls, remove comments from lines 11 to 16
+// headers = request.requestHeaders
+// if (headers.containsKey('auth_token2') == false) {
+//   headers.put('auth_token2', token)
+//   request.requestHeaders = headers
+// }</con:script>
+  </con:eventHandlers>
+  <con:eventHandlers type="TestRunListener.afterStep" name="TestRunListener.afterStep">
+    <con:script>// Save all test step results into files
+// Change the directory path in line 5 to a location where you want to store details
+// then uncomment lines 5 to 10
+
+// filePath = 'C:\\tempOutputDirectory\\'
+// fos = new java.io.FileOutputStream(filePath + testStepResult.testStep.label + '.txt', true)
+// pw = new java.io.PrintWriter(fos)
+// testStepResult.writeTo(pw)
+// pw.close()
+// fos.close()</con:script>
+  </con:eventHandlers>
+  <con:environment id="08c210c1-3dc8-47ba-b8fd-c0266f5ab0b4" name="ES-DEVELOPMENT" index="0">
+    <con:service type="REST" name="POST-SessionKey">
+      <con:endpoint authProfile="No Authorization" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">https://dev1.ppenergystudio.ihsenergy.com/</con:endpoint>
+    </con:service>
+    <con:property>
+      <con:name>SessionKey</con:name>
+      <con:value>BPIjR702CUcBBF5csd0TRVVGJFVFkKwT-18x2dF6x2B6o1SQ13C3chZ45vgwigx3Dx3DWNvC0i9Ve0pLH8XRrB2JGgx3Dx3D-fz74iYGv4x2B51bAxx2d4r0VAx3Dx3D-D8kFmSwxxuPEY2Tz47R1UNAx3Dx3D</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Auth Token</con:name>
+      <con:value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJHZW9yZ2kuQXJ0aXVzaGVua29AaWhzbWFya2l0LmNvbSIsImp0aSI6Ijk0NDRiZWY1LTdiYWEtNDRiMi04MjBjLTg5NzhkYjVkMzBlMSIsImlhdCI6MTU2NjI0NDM5MSwibmFtZSI6Ikdlb3JnaS5BcnRpdXNoZW5rb0BpaHNtYXJraXQuY29tIiwic2Vzc2lvbklkIjoiTUJCS3ZZY0o5a3F4MkJkc2NOSlBMemJJemVDaEdpcHNjcC0xOHgyZGl5eUVEcmhUS3l4MkJyM3RuOFMzU1U5d3gzRHgzRG1vR2ZEQ3M5dHVMQlBGcXFsN3J0M0F4M0R4M0QtSzhQRDNSeHg4eDJGTmFJNGgzS1ExOW16QXgzRHgzRC1qWjc4NnNGRXBXZ2hoT1FmbnRUVmR3eDNEeDNEIiwidXNlcklkIjoiMzk3NDUwIiwiZGlzcGxheU5hbWUiOiJHZW9yZ2kgQXJ0aXVzaGVua28iLCJjb21wYW55TmFtZSI6IklIUyBNQVJLSVQiLCJyb2wiOiJhcGlfYWNjZXNzIiwicm9sZSI6IkZ1bGxBY2Nlc3NVc2VyIiwibmJmIjoxNTY2MjQ0MzkxLCJleHAiOjE1NjYyNTE1OTF9.ezfCYanx8aAR40YvR7duEYnQ-snZVyPfdTq6G6INqsM</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Well Workbook ID</con:name>
+      <con:value>cbe04194-7cba-4a00-9fe0-3ce897166583</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Production Workbook ID</con:name>
+      <con:value>3d91ebfb-5072-4c00-bc28-f3f51685592c</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Well Production Detailed Report ID</con:name>
+      <con:value>01c6de72-700f-478a-81b3-f853e23a665e</con:value>
+    </con:property>
+    <con:property>
+      <con:name>IHS_SSO_SESS</con:name>
+      <con:value>86Rx2B5wDW4H7Px2B2yAs1gx2FY4xxENeufVTW9-18x2djRPyx2BK5QJgx2Bw5NlK3jqO7wx3Dx3DtdfFTI94cCox2BMpF8x2FNbVzwx3Dx3D-wgZx2B5OJx2FwUvBSb668PJVpQx3Dx3D-pWRgx2FAmx2Fox2FXTVpfBOc9Ex2FQx3Dx3D</con:value>
+    </con:property>
+    <con:property>
+      <con:name>297 ID</con:name>
+      <con:value>f9aaf63d-5fc6-450b-88c9-c9f163aab5cc</con:value>
+    </con:property>
+    <con:property>
+      <con:name>298 ID</con:name>
+      <con:value>395c8809-c00d-4773-a108-5e6749b13fa6</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Lease Detail Report ID</con:name>
+      <con:value>df1554be-f7d1-4585-9da9-ded6606164f4</con:value>
+    </con:property>
+    <con:property>
+      <con:name>SessionKey_NoAccess</con:name>
+      <con:value>spuovW0xxtg93sZXWKRamgo9VBevb6kT6-18x2d2cQ5g7FajlOw5NlK3jqO7wx3Dx3DAycNdoTZHwx2FGj4eJP4tMBQx3Dx3D-sx2Fx2BODaUfh00aWQZD9ZmNGgx3Dx3D-DKxx8Aq2VZwY9NhWfEStZtwx3Dx3D</con:value>
+    </con:property>
+    <con:property>
+      <con:name>SessionKey_AccessNoData</con:name>
+      <con:value>spuovW0xxtg8pJngx2BrAALiWhp5kmNixxKH-18x2dZRWWreQdx2Bx2Fmw5NlK3jqO7wx3Dx3DI16BT1wK11qUnk2ur5cCnAx3Dx3D-sx2Fx2BODaUfh00aWQZD9ZmNGgx3Dx3D-DKxx8Aq2VZwY9NhWfEStZtwx3Dx3D</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Well Workbook ID_AccessNoData</con:name>
+      <con:value>04a6a78f-5338-469b-9627-3e7bd7a423c6</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Production Workbook ID_AccessNoData</con:name>
+      <con:value>9538d6da-5aae-464c-a133-9116928167e2</con:value>
+    </con:property>
+    <con:property>
+      <con:name>SessionKey_well</con:name>
+      <con:value>XJiLLcul42YKC7iYbf7Va6eTxxcPDhI2S-18x2d2x2BG5hoLJ2Kuw5NlK3jqO7wx3Dx3DrpvpYvxx6jmfi85sQ5b33Pwx3Dx3D-wgZx2B5OJx2FwUvBSb668PJVpQx3Dx3D-pWRgx2FAmx2Fox2FXTVpfBOc9Ex2FQx3Dx3D</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Well Workbook ID-Canada_well</con:name>
+      <con:value>4a0999cf-9694-4e27-b739-455b61214635</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Lease Detail ID_well</con:name>
+      <con:value>9d6e7687-397a-45cc-8ae4-ef83b4adac65</con:value>
+    </con:property>
+    <con:property>
+      <con:name>SessionKey_proddata</con:name>
+      <con:value>XJiLLcul42agas2vfbsUGqAUzb4b2St1-18x2dmivg42S2oAaw5NlK3jqO7wx3Dx3DhRNzWBeuBbu32BVITr9ukgx3Dx3D-sx2Fx2BODaUfh00aWQZD9ZmNGgx3Dx3D-DKxx8Aq2VZwY9NhWfEStZtwx3Dx3D</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Well Workbook Tabs Testing ID</con:name>
+      <con:value>5b65000e-7ca0-40eb-be9e-7f34035dcab6</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Well Workbook Prodfit</con:name>
+      <con:value>1319f2ec-3bf7-4a36-9047-ae8b8edccbfa</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Well Borestick</con:name>
+      <con:value>ddd1f3bb-d8f7-48ce-bb1c-e34ca18c038f</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Session Key RM</con:name>
+      <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    </con:property>
+    <con:property>
+      <con:name>Canada Workbook RM</con:name>
+      <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    </con:property>
+    <con:property>
+      <con:name>Lease Detail RM</con:name>
+      <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    </con:property>
+    <con:property>
+      <con:name>Well Workbook Canada proddata</con:name>
+      <con:value>0a615528-4af9-4f59-a5d7-ad58511dcb83</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Production Scout Ticket Report</con:name>
+      <con:value>5d87aec9-5aca-4117-a332-42e269b71cf8</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Well Workbook 7K ID</con:name>
+      <con:value>cf467573-2876-40aa-b9a2-aa2e2d98abc0</con:value>
+    </con:property>
+    <con:property>
+      <con:name>SessionKey NoTops</con:name>
+      <con:value>spuovW0xxtg8bx2BdOm9c7KjpQp6d9x2BFslS-18x2d9EiuVtv3exx2w5NlK3jqO7wx3Dx3DrdWvMQiMXhtxxzirxxwnVeXAx3Dx3D-sx2Fx2BODaUfh00aWQZD9ZmNGgx3Dx3D-DKxx8Aq2VZwY9NhWfEStZtwx3Dx3D</con:value>
+    </con:property>
+    <con:property>
+      <con:name>ProjectId</con:name>
+      <con:value>47f1a2ce-d64d-405f-97a2-a4447d630b78</con:value>
+    </con:property>
+    <con:property>
+      <con:name>ExportId</con:name>
+      <con:value>45390393-8e3a-49f9-bebe-f3e6c93c6645</con:value>
+    </con:property>
+    <con:property>
+      <con:name>mapSourceId</con:name>
+      <con:value>25731989-154e-4799-8b8b-18b7accb9f47</con:value>
+    </con:property>
+    <con:property>
+      <con:name>TrialUser Session Key</con:name>
+      <con:value>spuovW0xxtg8jJYfoTONgVoMAN1YS3h8s-18x2dDiJNa0fb24Ww5NlK3jqO7wx3Dx3DBbFkDMvx2Bslx2B6nCCQQCGx2BIAx3Dx3D-sx2Fx2BODaUfh00aWQZD9ZmNGgx3Dx3D-DKxx8Aq2VZwY9NhWfEStZtwx3Dx3D</con:value>
+    </con:property>
+    <con:property>
+      <con:name>AlertID</con:name>
+      <con:value>38046da2-82d1-4a73-bb47-db28e56ea8e9</con:value>
+    </con:property>
+    <con:property>
+      <con:name>SessionKeyTopsKSOKTX</con:name>
+      <con:value>spuovW0xxtg93KyhUv9SabEFGpt2NdSiV-18x2dFjPesYN7Gq6w5NlK3jqO7wx3Dx3DLhJI9TDlOLJweMI8eH4lngx3Dx3D-wgZx2B5OJx2FwUvBSb668PJVpQx3Dx3D-pWRgx2FAmx2Fox2FXTVpfBOc9Ex2FQx3Dx3D</con:value>
+    </con:property>
+    <con:property>
+      <con:name>WellWorkbookIDTopsKSOKTX</con:name>
+      <con:value>1da56167-9cb6-4b90-9a4b-92c7eee2dc7c</con:value>
+    </con:property>
+    <con:property>
+      <con:name>SharedQueryWorkspaceID</con:name>
+      <con:value>df22d431-59a6-4e31-b1d4-24088ca50530</con:value>
+    </con:property>
+    <con:property>
+      <con:name>AutoExportID</con:name>
+      <con:value>d4a932aa-9003-4612-9e6e-b09926c6bdac</con:value>
+    </con:property>
+    <con:property>
+      <con:name>WellShapefileWGS84</con:name>
+      <con:value>dfff9b33-e932-40d8-8a26-13f1879418d6</con:value>
+    </con:property>
+    <con:property>
+      <con:name>ProjectName</con:name>
+      <con:value>Regression</con:value>
+    </con:property>
+    <con:property>
+      <con:name>LeaseHolderFrequencyID</con:name>
+      <con:value>082edd56-51e8-41ff-84a4-79df78a1056d</con:value>
+    </con:property>
+    <con:property>
+      <con:name>Trial1a_Production_User</con:name>
+      <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    </con:property>
+    <con:property>
+      <con:name>MineralHolderFrequencyID</con:name>
+      <con:value>a11aa307-b4ad-49a0-ab62-f25378d84d88</con:value>
+    </con:property>
+    <con:property>
+      <con:name>LeaseAssignmentFrequencyID</con:name>
+      <con:value>3c5e8361-f669-482b-9635-c3a8e28dcd06</con:value>
+    </con:property>
+    <con:property>
+      <con:name>UserName</con:name>
+      <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      <con:encryptedContent>aFBLQ2tMazdIdiswQmlsVWU1QmNNZ3UydTg0Z0pvQU9uU3VvY1V2UEF6ZlRkdkV4YWhsVVpPRDBmamU3RGtpN1BvWEF1NytqNnhOTQ0KNkVjb1UrQmtTamtuR3RVUHpVTGNxSVJjYTdERjkvR2x6UGxUUDEyakcvUlBVVDg4VDhiczFsNy9IM3RDbkp2c2Z0Vm1JekFpR2c9PQ0K</con:encryptedContent>
+    </con:property>
+    <con:property>
+      <con:name>Library1SessionKey</con:name>
+      <con:value>spuovW0xxtg92gIgrOhx2FNhRrmCKPKoySQ-18x2dkqV4x2FjaY4bSw5NlK3jqO7wx3Dx3DwaLFTC8NqzEXR4tMgDeItgx3Dx3D-sx2Fx2BODaUfh00aWQZD9ZmNGgx3Dx3D-DKxx8Aq2VZwY9NhWfEStZtwx3Dx3D</con:value>
+    </con:property>
+    <con:property>
+      <con:name>LeaseBrowseListExportId</con:name>
+      <con:value>6925d545-10d8-4aac-9bbe-badea3501724</con:value>
+    </con:property>
+    <con:property>
+      <con:name>QueryTransferID</con:name>
+      <con:value>414f7284-0a1e-4f8a-932c-36f58b85a345</con:value>
+    </con:property>
+    <con:property>
+      <con:name>ES Workbook Export path</con:name>
+      <con:value/>
+    </con:property>
+    <con:property>
+      <con:name>Password</con:name>
+      <con:value>Gartiush1#</con:value>
+    </con:property>
+    <con:property>
+      <con:name>SharedUserProjectID</con:name>
+      <con:value>4fe73ae3-d10a-4d25-881a-1a048628e5a0</con:value>
+    </con:property>
+    <con:property>
+      <con:name>ScoutTicketReportID</con:name>
+      <con:value>79585955-b543-4e2a-adb1-dfb11b07ab18</con:value>
+    </con:property>
+    <con:databaseConnectionContainer/>
+    <con:jmsConnectionContainer/>
+  </con:environment>
+  <con:authRepository/>
+  <con:environmentSpec>
+    <con:entry environmentId="08c210c1-3dc8-47ba-b8fd-c0266f5ab0b4">
+      <con:authProfile>No Authorization</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+  <con:tags/>
+</con:soapui-project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="e1ba7f21-248d-4a64-b9dc-fc7186c8e8f6" wadlVersion="http://wadl.dev.java.net/2009/02" name="GET-Auth Token" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="e1ba7f21-248d-4a64-b9dc-fc7186c8e8f6fileName">GET-Auth-Token</con:setting>
+  </con:settings>
+  <con:definitionCache type="TEXT" rootPart=""/>
+  <con:endpoints>
+    <con:endpoint>https://dev1.ppenergystudio.ihsenergy.com/</con:endpoint>
+  </con:endpoints>
+  <con:environmentSpec>
+    <con:entry environmentId="10acf14e-570b-4d28-b9af-25e8a7f1d6bf">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:interface>

@@ -1,0 +1,4 @@
+POST-SessionKey\Session.xml
+GET-Auth-Token\Papi.xml
+POST-user%2FtermsAndConditions%2Faccept\Accept.xml
+QUERIES-Suite\GraphQL.xml

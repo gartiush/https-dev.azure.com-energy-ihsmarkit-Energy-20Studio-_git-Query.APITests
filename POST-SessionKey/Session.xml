@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Session" path="/papi/session" id="b40222eb-74de-4fd4-b52e-0760d4dca5fd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="b40222eb-74de-4fd4-b52e-0760d4dca5fdfileName">Session</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Session" id="84a7a490-55c6-4971-aa43-8ae778b56a1a" method="POST">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="FAULT">
+      <con:mediaType>text/html</con:mediaType>
+      <con:status>405 504 503 403</con:status>
+      <con:params/>
+      <con:element>html</con:element>
+    </con:representation>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/json</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200 201</con:status>
+      <con:params/>
+      <con:element xmlns:ses="https://pantheon-test.ihsenergy.com/session">ses:Response</con:element>
+    </con:representation>
+    <con:representation type="FAULT">
+      <con:mediaType xsi:nil="true"/>
+      <con:status>500 400 415 404</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType xsi:nil="true"/>
+      <con:status>0</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/x-www-form-urlencoded</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:representation type="FAULT">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>400</con:status>
+      <con:params/>
+      <con:element xmlns:ses="https://pantheon-test.ihsenergy.com/session">ses:Fault</con:element>
+    </con:representation>
+    <con:representation type="FAULT">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>500</con:status>
+      <con:params/>
+      <con:element xmlns:ses="https://pantheon-test.ihsenergy.com/session">ses:Fault</con:element>
+    </con:representation>
+    <con:representation type="FAULT">
+      <con:mediaType>application/xml</con:mediaType>
+      <con:status>405</con:status>
+      <con:params/>
+      <con:element>Error</con:element>
+    </con:representation>
+    <con:representation type="FAULT">
+      <con:mediaType>text/html; charset=iso-8859-1</con:mediaType>
+      <con:status>403</con:status>
+      <con:params/>
+      <con:element>html</con:element>
+    </con:representation>
+    <con:request name="POST - SessionKey" id="30f14659-5293-4d1b-8e35-d54ac5eee226" mediaType="application/json" postQueryString="false">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://pantheon-test.ihsenergy.com</con:endpoint>
+      <con:request>{
+  "userName": "georgi.artiushenko@ihsmarkit.com",
+  "password": "Gartiush1#"
+}</con:request>
+      <con:originalUri>https://pantheon-test.ihsenergy.com/session</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Cookie</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+      <con:parameterOrder/>
+      <con:environmentSpec>
+        <con:entry environmentId="be96ad23-14df-4c33-ad17-38264bb54c8d">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="a71f61d1-77f7-48ec-ac98-9b8823edd913">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="50204079-26dc-49fb-8885-cb8a5abe99ff">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="ccdb58ca-8644-4ffa-8be8-683364c51147">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="9c615a75-ba69-4936-968e-bb638739b670">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="7812f374-4e15-4111-819b-1bb83435ea74">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="79133166-dbdf-423e-8811-c4efd62a6352">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="d51e627f-cc2e-4de5-8463-cfbc0ac1a251">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="dc414d70-b373-4b7f-9a7b-7192fb427293">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="6c2ecc52-008e-4e37-a7b3-340da2f20224">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="3d08eb6c-3146-43f1-9913-46d7e83f55ed">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="4a15a3f2-6ece-4508-87c6-627323c1308b">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="3817c398-8eb4-4f6e-8141-781b456ec022">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="6408af94-75c4-4f2e-af77-cdba9a1adc75">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="4008253f-5dd4-448c-9079-9b362b462040">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="6a523e78-91a6-4c23-9957-22843e21852b">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="09f4f77e-4b38-480e-8171-9b2f8c6951e3">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c330ec9e-415d-4d50-962c-53dcf3b219f7">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="1b8cbbef-f54b-4aac-8b41-8ab4aed4f182">
+          <con:authProfile>No Cookie</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="10acf14e-570b-4d28-b9af-25e8a7f1d6bf">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="10acf14e-570b-4d28-b9af-25e8a7f1d6bf">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
+  </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="10acf14e-570b-4d28-b9af-25e8a7f1d6bf">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:resource>

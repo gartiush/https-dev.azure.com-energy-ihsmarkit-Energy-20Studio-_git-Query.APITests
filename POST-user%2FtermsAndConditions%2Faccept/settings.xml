@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="820e6afd-9cb9-4065-ad74-bfaf0ae21640" wadlVersion="http://wadl.dev.java.net/2009/02" name="POST-user/termsAndConditions/accept" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="820e6afd-9cb9-4065-ad74-bfaf0ae21640fileName">POST-user%2FtermsAndConditions%2Faccept</con:setting>
+  </con:settings>
+  <con:definitionCache type="TEXT" rootPart=""/>
+  <con:endpoints>
+    <con:endpoint>https://dev1.ppenergystudio.ihsenergy.com/</con:endpoint>
+  </con:endpoints>
+  <con:environmentSpec>
+    <con:entry environmentId="10acf14e-570b-4d28-b9af-25e8a7f1d6bf">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:interface>

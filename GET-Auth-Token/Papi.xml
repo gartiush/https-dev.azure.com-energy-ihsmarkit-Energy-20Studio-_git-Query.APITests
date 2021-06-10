@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Papi" path="/papi/session/jwt" id="ef49dbf9-f38b-44f8-a505-33284b44d157" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="ef49dbf9-f38b-44f8-a505-33284b44d157fileName">Papi</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Papi" id="bc70002f-8a0e-45ef-a316-5f84a43be781" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:wek="https://pantheon-test.ihsenergy.com/papi/session/jwt/WekkkyCuCK12gXs0076YBRmCx2BdQ3x2Bape-18x2dxx6vydax2BEpeFt7x2FprBqHIPAx3Dx3DrNf50Biyza6wUh6XQjiF5wx3Dx3D-K8PD3Rxx8x2FNaI4h3KQ19mzAx3Dx3D-jZ786sFEpWghhOQfntTVdwx3Dx3D">wek:Response</con:element>
+    </con:representation>
+    <con:representation type="FAULT">
+      <con:mediaType xsi:nil="true"/>
+      <con:status>404</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType xsi:nil="true"/>
+      <con:status>0</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="FAULT">
+      <con:mediaType>text/html; charset=iso-8859-1</con:mediaType>
+      <con:status>403</con:status>
+      <con:params/>
+      <con:element>html</con:element>
+    </con:representation>
+    <con:request name="GET-Auth Token" id="ea388d90-00b4-4062-ab6d-64f2e97b3479" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://pantheon-test.ihsenergy.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://webservices.ihsenergy.com/papi/session/jwt</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Cookie</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+      <con:environmentSpec>
+        <con:entry environmentId="4a15a3f2-6ece-4508-87c6-627323c1308b">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="3817c398-8eb4-4f6e-8141-781b456ec022">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="6408af94-75c4-4f2e-af77-cdba9a1adc75">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="4008253f-5dd4-448c-9079-9b362b462040">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="6a523e78-91a6-4c23-9957-22843e21852b">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="09f4f77e-4b38-480e-8171-9b2f8c6951e3">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c330ec9e-415d-4d50-962c-53dcf3b219f7">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="1b8cbbef-f54b-4aac-8b41-8ab4aed4f182">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="10acf14e-570b-4d28-b9af-25e8a7f1d6bf">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="10acf14e-570b-4d28-b9af-25e8a7f1d6bf">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
+  </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="10acf14e-570b-4d28-b9af-25e8a7f1d6bf">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:resource>

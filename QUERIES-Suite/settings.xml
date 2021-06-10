@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="5e38f502-0f18-4c91-a70e-1084c54b69fa" name="QUERIES Suite" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="5e38f502-0f18-4c91-a70e-1084c54b69fafileName">QUERIES-Suite</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>
