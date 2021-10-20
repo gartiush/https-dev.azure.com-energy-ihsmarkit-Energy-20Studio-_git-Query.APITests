@@ -69,8 +69,8 @@
       </con:settings>
       <con:endpoint>https://pantheon-test.ihsenergy.com</con:endpoint>
       <con:request>{
-  "userName": "georgi.artiushenko@ihsmarkit.com",
-  "password": "Gartiush1#"
+  "userName": "",
+  "password": ""
 }</con:request>
       <con:originalUri>https://pantheon-test.ihsenergy.com/session</con:originalUri>
       <con:credentials>
